@@ -1,0 +1,25 @@
+{
+  "name": "raf-shim",
+  "version": "0.0.1",
+  "description": "This is a browserify compatible shim for request and cancel animation frame",
+  "main": "raf-shim.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevekane/raf-shim.git"
+  },
+  "keywords": [
+    "requestAnimationFrame",
+    "cancelAnimationFrame",
+    "raf",
+    "caf",
+    "shim"
+  ],
+  "author": "Steve Kane",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "~2.3.0"
+  }
+}
